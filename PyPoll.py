@@ -38,6 +38,11 @@ with open(file_to_load) as election_data:
             candidate_votes[row[2]]=0
         candidate_votes[row[2]]+=1
 
+with open(file_to_save, "w") as election_analysis:
+    election_results= (f"Election Results\n------------------------\nTotal votes: {total_votes:,}\n------------------------\n")
+    print(election_results)
+    election_analysis.write(election_results)
+
     for candidate in candidate_votes:
         votes=candidate_votes[candidate]
         vote_percentage=int(votes)/int(total_votes)*100
@@ -47,7 +52,9 @@ with open(file_to_load) as election_data:
             winning_percentage=vote_percentage
             winning_candidate=candidate
 #Print each candiate with vote share and count
-        print(f"{candidate}: {vote_percentage:.1f}% ({votes:,})\n")
+        candidate_results=(f"{candidate}: {vote_percentage:.1f}% ({votes:,})\n")
+        print(candidate_results)
+        election_analysis.write(candidate_results)
 #Print winning candidate and related stats
     winning_candidate_summary = (
     f"-------------------------\n"
@@ -56,3 +63,4 @@ with open(file_to_load) as election_data:
     f"Winning Percentage: {winning_percentage:.1f}%\n"
     f"-------------------------\n")
     print(winning_candidate_summary)
+    election_analysis.write(winning_candidate_summary)
