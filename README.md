@@ -22,9 +22,9 @@ My analysis of election data show the following results
   Raymon Anthony Doane received 11,606 votes, which is 3.1% of total votes
 
 - The election result is:
-  Winner: Diana DeGette
-  Winning Vote Count: 272,892
-  Winning Percentage: 73.8%
+  - Winner: Diana DeGette
+  - Winning Vote Count: 272,892
+  - Winning Percentage: 73.8%
 
 (Please note that I provided the election_analysis.txt file as part of this assignment.)
 
