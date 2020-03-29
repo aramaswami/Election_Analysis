@@ -28,5 +28,25 @@ Winning Percentage: 73.8%
 
 (Please note that I provided the election_analysis.txt file as part of this assignment.)
 
+## Challenge oveview
+We analyzed election results by candidate but that does not provide a complete picture of voter participation. It is also important to understand the vote totals by county. I added code that would total votes by county and determine the county with the largest number of votes. I also added the summary of votes by county to my election analysis text file.
 
+## Challenge Summary
+Following is a summary if the results I determined from the running the code with changes for this challenge. As you will recall from our earlier analysis, the total votes cast in the election is 369,711. A county-wise breakdown of this is: 
+
+County Votes:
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
+
+This shows that the largest voter turnout was in Denver county.
+
+## Challenge methodology
+I'd like to highlight the specific changes that I made to the code to generate county-based results. The important aspect that I realized is that the code should determine the county with the most voter turnout in the same manner as we determined the candidate with the most votes. Following is a summary of my methodology.
+- Initialize a list for counties and a dictionary for votes by county
+- Initialize values for lead county, county leader for turnout, vote share %
+- Create county list and county_votes dictionary
+- Calculate vote % by county
+- Determine county leader, #votes, and vote%
+- Print and write to txt file, with format, each county with vote share and total      
 
