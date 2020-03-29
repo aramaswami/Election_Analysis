@@ -2,10 +2,11 @@
 ## Project Overview
 The task assigned to me is to analyze ballots votes from a recent Colorado election and determine the winner, ie. the candidate with the most number of votes. The raw data that I was provided is a csv file with the actual voting data, by ballot, that had the ballot number, county, and candidate for whom the vote was cast. Given the size of the data set, I wrote Python code to analyze file and determine the results of the election. 
 
-I used the following tools for this assignment:
+I used the following toolsand resources for this assignment:
+- Python 3.8
 - Visual Studio v1.43.2
 - GitBash
-- Excel
+- Excel (election results csv file)
 
 ## Summary of results
 Following is the output of election results written to the txt file:
