@@ -9,20 +9,24 @@ I used the following toolsand resources for this assignment:
 - Excel (election results csv file)
 
 ## Summary of results
-Following is the output of election results written to the txt file:
+My analysis of election data show the following results
 
-Election Results
-------------------------
-Total votes: 369,711
-------------------------
-Charles Casper Stockham: 23.0% (85,213)
-Diana DeGette: 73.8% (272,892)
-Raymon Anthony Doane: 3.1% (11,606)
--------------------------
+- A total of 369,711 were cast in this election
+- The candidates were:
+  - Charles Casper Stockham
+  - Diana DeGette
+  - Raymon Anthony Doane
+- The results for each candidate is as follows:
+  Charles Casper Stockham received 85,213 vtes, which is 23.0% of total votes
+  Diana DeGette received 272,892 votres, which is 73.8% of total votes
+  Raymon Anthony Doane received 11,606 votes, which is 3.1% of total votes
+
+- The election result is:
 Winner: Diana DeGette
 Winning Vote Count: 272,892
 Winning Percentage: 73.8%
--------------------------
 
-Please note that the election_analysis.txt file with these results is included with the code and other materials that I am providing for this assignment.
+(Please note that I provided the election_analysis.txt file as part of this assignment.)
+
+
 
