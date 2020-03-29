@@ -35,11 +35,13 @@ We analyzed election results by candidate but that does not provide a complete p
 Following is a summary if the results I determined from the running the code with changes for this challenge. As you will recall from our earlier analysis, the total votes cast in the election is 369,711. A county-wise breakdown of this is: 
 
 County Votes:
-Jefferson: 10.5% (38,855)
-Denver: 82.8% (306,055)
-Arapahoe: 6.7% (24,801)
+- Jefferson: 10.5% (38,855)
+- Denver: 82.8% (306,055)
+- Arapahoe: 6.7% (24,801)
 
 This shows that the largest voter turnout was in Denver county.
+
+Note: The code for the challenge is in PyPoll_Challenge.py.
 
 ## Challenge methodology
 I'd like to highlight the specific changes that I made to the code to generate county-based results. The important aspect that I realized is that the code should determine the county with the most voter turnout in the same manner as we determined the candidate with the most votes. Following is a summary of my methodology.
